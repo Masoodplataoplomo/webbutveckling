@@ -1,0 +1,33 @@
+/* CSS för elevuppgift - Layout och Textstyling */
+
+/* Grundläggande styling för alla boxar */
+.container {
+    /* Lägg till container styling */
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+/* Ibra - Position: relative; Textstyling: letter-spacing, uppercase */
+/* Tips: Flytta lådorna lite från deras normala plats med top, left, right, bottom. */
+.box1 {
+    margin-right: 70vw;
+    margin-left: 13vw;
+}
+.box4 {
+    margin-right: 40vw;
+    
+}
+.box7 {
+   margin-right: 10vw;
+}

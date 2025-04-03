@@ -1,0 +1,58 @@
+
+.container{
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end; /* Justera vid behov */
+    align-items: center; /* Centrera vertikalt om nödvändigt */  
+    
+       
+ }  
+
+.box {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+/* Elevspecifik information */
+/* Varje elev får en kopia av detta dokument och ska bara arbeta med sina lådor */
+
+/* Masood - Position: flex; Textstyling: italic, text-align center */
+/* Tips: Se till att .container har display: flex; och justera justify-content. */
+
+.box2
+{
+
+    font-style: italic; /* Kursiv text */
+    text-align: center; /* Centrera text */
+    margin-left: vw;
+  
+}
+
+
+ .box3
+{ 
+    font-style: italic; /* Kursiv text */
+    text-align: center; /* Centrera text */
+    margin-right: 10vw;
+  }
+
+
+
+ 
+ .box7 
+ {
+
+    font-style: italic; /* Kursiv text */
+    text-align: center; /* Centrera text */
+    margin-left: 80vw;
+
+}
